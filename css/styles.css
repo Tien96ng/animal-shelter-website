@@ -1,0 +1,49 @@
+body {
+  background-color: #F8F0F9;
+}
+
+h1, h5 {
+  text-align: center;
+}
+
+h5 {
+  font-style: italic;
+
+}
+
+.profile-container {
+  border: grey 1px solid;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 3px 6px grey;
+  background-color: #F1DFF3;
+}
+
+.profile-container ul {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #464646;
+}
+
+.profile-container .dog-name {
+  text-align: center;
+}
+
+
+.profile-container h5 {
+  color: #9A5EB5;
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
